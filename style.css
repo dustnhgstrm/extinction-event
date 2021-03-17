@@ -13,14 +13,15 @@
 
 img {
   width: 162px;
-  transition: 2s width;
+  transition: width 2s;
 }
 
 ul li {
-  transition: 2s opacity;
+  transition: opacity 2s;
 }
 
-.feature, header {
+.feature,
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,4 +33,12 @@ ul li {
 
 #burn * {
   margin: 5px;
+}
+
+.extinction {
+  opacity: 0;
+}
+
+.dieting {
+  width: 0px;
 }
